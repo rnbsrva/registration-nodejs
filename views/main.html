@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="styles.css">
+  <title>Main Page</title>
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="jumbotron">
+      <h1 class="display-4">Welcome to Our Website!</h1>
+      <p class="lead">Explore and enjoy the content we have to offer. Feel free to interact and make the most of your experience.</p>
+      <hr class="my-4">
+      <button class="btn btn-primary" onclick="logout()">Logout</button>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script>
+    function logout() {
+      window.location.href = "index.html";
+      console.log("Logged out successfully!");
+    }
+  </script>
+</body>
+</html>
